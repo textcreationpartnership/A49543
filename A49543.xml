@@ -1,0 +1,412 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preach'd before the Honourable House of Commons on the anniversary fast for the martyrdom of King Charles I by E. Langford ...</title>
+            <author>Langford, E. (Emanuel), b. 1657 or 8.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 54 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49543</idno>
+            <idno type="STC">Wing L386</idno>
+            <idno type="STC">ESTC R7375</idno>
+            <idno type="EEBO-CITATION">13716394</idno>
+            <idno type="OCLC">ocm 13716394</idno>
+            <idno type="VID">101544</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49543)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 101544)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 845:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preach'd before the Honourable House of Commons on the anniversary fast for the martyrdom of King Charles I by E. Langford ...</title>
+                  <author>Langford, E. (Emanuel), b. 1657 or 8.</author>
+               </titleStmt>
+               <extent>[2], 25, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Thomas Bennet ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Advertisement on p. [1] at end.</note>
+                  <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Isaiah LII, 7 --  Sermons.</term>
+               <term>Fast-day sermons.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-07</date>
+            <label>Leah Yurasek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-07</date>
+            <label>Leah Yurasek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:101544:1"/>
+            <pb facs="tcp:101544:1"/>
+            <p>A SERMON Preach'd before the Honourable <hi>Houſe of Commons,</hi> ON THE Anniverſary Faſt FOR THE MARTYRDOM OF King <hi>CHARLES</hi> I.</p>
+            <p>By <hi>E. LANGFORD,</hi> D. D.</p>
+            <p>
+               <hi>LONDON</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rinted for <hi>Thomas Bennet,</hi> at the Half-Moon in St. Paul's Church-Yard. MDCXCVIII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:101544:2"/>
+            <pb n="1" facs="tcp:101544:2"/>
+            <head>A SERMON Preach'd before the Honourable <hi>Houſe of Commons.</hi>
+            </head>
+            <epigraph>
+               <bibl>
+                  <hi>Iſa. 53. v. 7. latter part.</hi>
+               </bibl>
+               <q>
+                  <p>—He is brought as a Lamb to the Slaughter, and as a Sheep before her Shearers is dumb, ſo open<g ref="char:EOLhyphen"/>eth he not his Mouth.</p>
+               </q>
+            </epigraph>
+            <p>ONE great Atteſtation to our Lord Jeſus his be<g ref="char:EOLhyphen"/>ing the true Meſſias, and to the Truth of the Goſpel, which he preached, is drawn from the many Predictions of Him, moſt clearly laid down in the Prophets, and moſt manifeſtly fulfill<g ref="char:EOLhyphen"/>ed by Him at his Appearance in the World.<note place="margin">John 5.</note> And there<g ref="char:EOLhyphen"/>fore diſputing with the <hi>Jews,</hi> after He had alledg'd the Teſtimony of <hi>his Father,</hi> and the Teſtimony of <hi>John,</hi> and the Witneſs of <hi>his own Works.</hi>
+               <note place="margin">ver. 17, <hi>&amp;c.</hi> ver. 33.</note> He adds at laſt the Evidence of <hi>Scriptures. Search the Scriptures,</hi> ſays he,<note place="margin">ver. 36.</note> 
+               <hi>they are they which teſtify of me.</hi> And again and again,<note place="margin">ver. 39.</note>
+               <pb n="2" facs="tcp:101544:3"/>we meet with Applications of the Prophecies to his whole Oeconomy.<note place="margin">Mat. 1.22.</note> 
+               <hi>That it might be fulfilled which was ſaid by ſuch or ſuch a Prophet. Then was fulfilled what was ſpoken in ſuch or ſuch a place,</hi>
+               <note place="margin">Cap. 2.17.</note> and the like. So our Lord himſelf, <hi>beginning at</hi> Moſes <hi>and all the Prophets, expounded</hi> to the Two Diſciples going to <hi>Emmaus,</hi>
+               <note place="margin">Luke 24.27.</note> 
+               <hi>in all theſe things concerning Himſelf.</hi> And that I may not trouble you with many Inſtances in a thing ſo well known,<note place="margin">Luke 7.</note> I ſhall only mention that place where <hi>Chriſt Himſelf</hi> appeals to what was foretold of the Miracles which were to be wrought by the <hi>Meſſias</hi> at his com<g ref="char:EOLhyphen"/>ing, and were all exactly performed by him. <hi>John the Baptiſt</hi> ſent ſome of his Diſciples to Jeſus, ſaying, <hi>Art thou he that ſhould come,</hi>
+               <note place="margin">ver. 19.</note> 
+               <hi>or look we for another?</hi> (where, by the way, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <hi>He that ſhould come,</hi> is meant nothing elſe but <hi>the Meſſias;</hi>) <hi>Our Saviour bids them go tell John what they had ſeen and heard, how the blind ſaw, the lame walked, the Lepers were cleanſed, the deaf heard; viz.</hi> that the very Miracles were wrought by him, which were foretold by <hi>Iſaias</hi> the Prophet,<note place="margin">Chap. 35.4, 5, 6.</note> to be the Works and Signs of <hi>the Meſſias,</hi> and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o leſt him to Judg whether he was <hi>the Meſſias</hi> or not.</p>
+            <p>But amongſt all the Characters of the <hi>Meſſias,</hi> none were more plain and bright than thoſe which ſet forth his <hi>ſorrowful Sufferings,</hi> and his <hi>Infinite Meekneſs, Pati<g ref="char:EOLhyphen"/>ence, Humility</hi> and <hi>Charity.</hi> And they are no where more clearly expreſt than in this <hi>Prophet,</hi> and particu<g ref="char:EOLhyphen"/>larly in this Chapter. He is foretold here, <hi>To bear our Griefs,</hi>
+               <note place="margin">ver. 3.4. ver. 5. ver. 7. ver. 8.</note> 
+               <hi>and carry our ſorrows; to be wounded for our tranſ<g ref="char:EOLhyphen"/>greſſions, and bruiſed for our Iniquities; to be oppreſſed, to be afflicted, to be diſtreſſed, to be judged,</hi> and at laſt <hi>to be cut off out of the Land of the Living.</hi> Here you have a ſhort Abſtract of his Sufferings; yet notwithſtanding all <hi>theſe,</hi> ſuch was <hi>his Invincible Patience and Meekneſs,</hi> that <hi>He opened not his Mouth.</hi> But <hi>is brought as the Lamb to the Slaughter, and as a Sheep before her Shearers is dumb, ſo openeth He not his Mouth.</hi>
+            </p>
+            <pb n="3" facs="tcp:101544:3"/>
+            <p>He is here compared to <hi>a harmleſs innocent Sheep before the Shearers,</hi> and to a poor <hi>innocent Lamb under the But<g ref="char:EOLhyphen"/>cher's hands,</hi> both ſilent and without complaint. The ſenſe or thing hereby ſignified is no more but this, that</p>
+            <list>
+               <item>1. He ſhould bear all his ſufferings and afflictions, all his Temptations and Trials, with a moſt <hi>wonderful Hu<g ref="char:EOLhyphen"/>mility, Meekneſs and Perſeverance.</hi> And,</item>
+               <item>2. That he ſhould lay down even his very Life with all <hi>chearfulneſs</hi> and ready <hi>Submiſſion</hi> to his Father's Will.</item>
+            </list>
+            <p>Theſe two parts of his Character were abſolutely neceſſary to promote the main Deſign and Doctrinal part of his Goſpel; For <hi>He came to call Sinners to Re<g ref="char:EOLhyphen"/>pentance, to teach his Diſciples Self-denial; to mortifie all their Luſts and corrupt Affections; to reſiſt the World and all its Pomps and Vanities; to engage in a War full of Dif<g ref="char:EOLhyphen"/>ficulties and Dangers,</hi> and by conſequence, <hi>to endure all the Croſſes, Troubles, and Perſecutions which they ſhould meet withal upon this account.</hi>
+            </p>
+            <p>And if the hatred and violence of the World, or wic<g ref="char:EOLhyphen"/>ked Men ſhould at laſt proceed to that height, as to ſeek their very Blood, then <hi>to reſign their Lives with Joy and Gladneſs, under the comfort of an Innocent Heart and a Good Conſcience.</hi>
+            </p>
+            <p>Now tho theſe his Precepts, to conſidering minds, might in themſelves ſeem very rational, yet the Force of his moſt Divine Example, together with the promiſe of his moſt gracious aſſiſtance, are ſufficient alone to enliven and quicken the Practice of theſe Duties. For Men are not ſo eaſily led by Precept, as by Exmaple, but moſt Effectually by both.</p>
+            <p>From this Explication therefore of the Words read unto you, I will, through God's aſſiſtance, endeavour,</p>
+            <list>
+               <item>1. To repreſent unto you this meek, humble and pa<g ref="char:EOLhyphen"/>tient Diſpoſition of Mind, which our Prophet foretels ſhould be ſo eminently fulfilled in the Perſon of our Saviour.</item>
+               <pb n="4" facs="tcp:101544:4"/>
+               <item>2. To recommend the Practice of the ſame, both from his Precepts and Example. And then,</item>
+               <item>3. With your favourable attention, briefly to ſet before you the moſt Chriſtian Behaviour of that Patient and Royal Martyr, whom we this day commemorate, ſhewing thereby, how ſtrictly he obſerved his Great Maſters Commands, how Religiouſly he followed his Divine Example.</item>
+            </list>
+            <p n="1">1. I am, to repreſent unto you, this meek, humble and patient diſpoſition of mind, which under the Pa<g ref="char:EOLhyphen"/>rable of an harmleſs <hi>Lamb</hi> and Innocent <hi>Sheep,</hi> our Prophet foretells, ſhould be ſo eminently fulfilled in the Perſon of our Bleſſed Saviour.</p>
+            <p>Now this Emblem of the Chriſtian Temper and Spi<g ref="char:EOLhyphen"/>rit we have in the New Teſtament, painted more at large in thoſe moſt Lively Colours of Peace and Love <hi>unfeigned, kindneſs, gentleneſs, goodneſs, meekneſs and tenderneſs of Heart: Bowels of Mercy</hi> and <hi>Compaſſion, humbleneſs of mind, patience, long ſuffering, forbear<g ref="char:EOLhyphen"/>ance and forgiveneſs of one another, even as Chriſt hath forgiven us.</hi> All which St. <hi>Paul</hi> expreſſes in that one moſt Comprehenſive Word of Charity.<note place="margin">1 Cor. 13.14, <hi>&amp;c.</hi>
+               </note> 
+               <hi>Charity,</hi> ſays He, <hi>Suffers long and is kind, envieth not, vaunteth not it ſelf, is not puffed up, doth not behave it ſelf unſeem<g ref="char:EOLhyphen"/>ly, ſeeketh not her own, is not eaſily provoked, thinketh no Evil, rejoiceth not in Iniquity, beareth all things, be<g ref="char:EOLhyphen"/>lieveth all things, hopeth all things, endureth all things.</hi>
+            </p>
+            <p>This is that moſt admirable and moſt excellent <hi>Beauty of Holineſs, without which no Man ſhall ſee God;</hi> and we are hereby inſtructed that it ariſes from a meek heart, and humble Spirit. For what is it but meer Pride and Deſire of Vain-glory, that begets all thoſe in<g ref="char:EOLhyphen"/>ward <hi>Diſeaſes and corruptions of Malice and Hatred, Variance, Emulations, Wrath, Strife, Seditions, Here<g ref="char:EOLhyphen"/>fies, Envyings, Revenge, Murder, and the like?</hi> This puffs Men up, and makes them not endure, that others
+<pb n="5" facs="tcp:101544:4"/>ſhould be as good as themſelves, Nay, Love that them<g ref="char:EOLhyphen"/>ſelves ſhould be thought much better than they are: For even the wickedeſt Men give that Praiſe and At<g ref="char:EOLhyphen"/>teſtation to Virtue, that tho amongſt their lewd Companions, Perhaps they may Glory in their Villa<g ref="char:EOLhyphen"/>nies, and make themſelves ſeem far more wicked than they are, yet amongſt ſober Men, they all deſire to paſs under a <hi>more favourable Character.</hi> They love to appear under ſomething of the outward <hi>form</hi> and ſhew of <hi>Godli<g ref="char:EOLhyphen"/>neſs,</hi> tho they are perfect ſtrangers to the <hi>Power</hi> thereof.</p>
+            <p>This gives them a falſe Senſe and Reputation; they are highly aſhamed their Faults ſhould be in the leaſt ex<g ref="char:EOLhyphen"/>poſed to the Eye of the world, but are nothing concern<g ref="char:EOLhyphen"/>ed how much diſhonour they caſt upon Almighty God in committing them. To treſpaſs againſt his Eternal Truth, or out-dare his all-ſearching Spirit, by telling, and perhaps ſwearing <hi>to a Lye,</hi> is too too common a pra<g ref="char:EOLhyphen"/>ctice amongſt them; but for one to tell them <hi>they Lye,</hi> is ſo unpardonable an Affront, in their Eſteem, ſo high a Provocation, that nothing but the Life or Blood of the Party that ſaid it, can make ſatisfaction for it.</p>
+            <p>O Bleſſed Jeſus! How far are theſe Men eſtranged from thy Divine Love! How far do they make thy Ho<g ref="char:EOLhyphen"/>ly and Glorious Name to ſtink, and become a Reproach amongſt the Heathen, and unbelieving parts of the world! Never then let us count theſe moſt foul Spots of our Sacred Profeſſion, Points of Honour more; Ne<g ref="char:EOLhyphen"/>ver let him that calls Himſelf a Chriſtian any longer glory in this his Eternal Shame.</p>
+            <p>I confeſs indeed, I find it in ſome Great Maſters of Morals <hi>allow'd in Youth to be a little fond of External Ho<g ref="char:EOLhyphen"/>nour,</hi>
+               <note place="margin">Simplic, in Epict. c. 48.</note> 
+               <hi>and Popular Applauſe, Becauſe it may raiſe their</hi> Virgin <hi>Thoughts and Innocent Affections to the Enter<g ref="char:EOLhyphen"/>prize of truly Noble Things,</hi> and <hi>give a Spur to their In<g ref="char:EOLhyphen"/>duſtry.</hi> and <hi>put them with delight upon Labours and Tasks, which otherwiſe might be rather a puniſhment and
+<pb n="6" facs="tcp:101544:5"/>torment to them to undergo.</hi> But withal they tell us, That afterwards, to make this <hi>a Principle</hi> of their <hi>Acti<g ref="char:EOLhyphen"/>ons, will inevitably prove their Ruin and Deſtruction.</hi> For beſides all thoſe dreadful Conſequences which I juſt now mentioned, it <hi>makes all Virtue meerly accidental</hi> and <hi>conditional; they will neither value nor practice it, as it is Good, but only as it is Popular.</hi> It begets ſuch an abſo<g ref="char:EOLhyphen"/>lute Dotage and Frenzy in their minds, as <hi>tho they de<g ref="char:EOLhyphen"/>ſpiſe and ſlight nothing more than the Perſons and Con<g ref="char:EOLhyphen"/>verſations of the Vulgar,</hi> yet they are ſo <hi>ridiculouſly be<g ref="char:EOLhyphen"/>ſotted,</hi> as to Court, and wholly depend upon their ſenſeleſs Eſteem, and reſt more ſatisfy'd <hi>in the vain O<g ref="char:EOLhyphen"/>pinion of the World,</hi> than in the comfort of a Good Conſcience, and <hi>the Joynt Teſtimony of that All know<g ref="char:EOLhyphen"/>ing God,</hi> who will certainly one day Judge the Secret Thoughts of all Mankind.</p>
+            <p>This Swelling indeed, and Tumour of <hi>the Soul,</hi> ſticks very cloſe unto us; 'tis for the moſt part <hi>the laſt Rag of our corrupt Nature that we put off,</hi> and <hi>the laſt peice of all this Earthly Lumber we bear about us, that we part withal.</hi> Since then it is the bitter Root of ſo many, and ſo great Evils, and takes ſuch deep hold in thoſe infirm and eaſy Minds, which cheriſh it, how chearfully ought we to entertain, how highly ought we to prize that Evangelical Humility and Meekneſs which we have pre<g ref="char:EOLhyphen"/>ſcrib'd as a Sovereign Remedy againſt this pernicious Diſtemper of the Mind, and ſo gloriouſly recommended (Which is the</p>
+            <p n="2">II. Second Obſervable in my Text) to our practice, <hi>by</hi> the Example as well as Precept, of our Bleſſed Lord and Saviour, <hi>who when He was reviled, reviled not again; when He ſuffered, He threatned not,</hi> but <hi>was led as a Lamb to the ſlaughter,</hi>
+               <note place="margin">1 Pet. 2. c. 23.</note> 
+               <hi>and as a Sheep before her ſhearers is dumb, ſo opened he not his mouth.</hi>
+            </p>
+            <p>Our merciful Father, by ſending Chriſt, the Grand Exemplar, to us, moſt wiſely conſidered, and moſt gra<g ref="char:EOLhyphen"/>ciouſly
+<pb n="7" facs="tcp:101544:5"/>condeſcended to our preſent condition; For whether it be from our Original Nature, or from our Hereditary Corruption of it, I ſhall not now determine. We ſee the Generality of the world led by <hi>Example,</hi> as much, if not more than by <hi>Precept.</hi> To do as <hi>another doth,</hi> was ever counted a great Encouragement, as well as no ſmall Juſtification. For Precept is but as a fair Picture; whereas Example is the very Life: Without this the other would paſs for an Airy Speculation, or meer Romance. Then Men are believed to be ſerious and in good earneſt, when what they teach others, they firſt practice themſelves. <hi>By their own well-doing,</hi>
+               <note place="margin">Ep. 1.2, 15.</note> as St. <hi>Peter</hi> ſaith, <hi>they utterly put to ſilence the Ignorance of Fooliſh Men.</hi> Or being like St. <hi>Paul's</hi> Biſhop,<note place="margin">Tit. 1.7, 9.</note> 
+               <hi>themſelves perfect<g ref="char:EOLhyphen"/>ly blameleſs, they may be able to convince their moſt Inſolent Gainſayers.</hi>
+            </p>
+            <p>
+               <note place="margin">Segniusirri<g ref="char:EOLhyphen"/>tant animes demiſſa per Aures.</note>What we only hear, we uſually little mind, and as eaſily forget; but <hi>what we ſee,</hi> does commonly make a greater impreſſion upon us. Now this is <hi>the</hi> very dif<g ref="char:EOLhyphen"/>ference betwixt <hi>Precept and Example;</hi>
+               <note place="margin">Quam quae ſunt oculis comiſſa ſide<g ref="char:EOLhyphen"/>libus—<hi>Hor.</hi>
+               </note> and as the Evi<g ref="char:EOLhyphen"/>dence of both theſe Senſes, commit, as it were, a Violence upon our Imagination, ſo the Influence of both theſe to<g ref="char:EOLhyphen"/>gether, lays as great a Force upon our Will and Under<g ref="char:EOLhyphen"/>ſtanding.</p>
+            <p>
+               <hi>The Scribes and Phariſees ſat in Moſes Seat,</hi> and with<g ref="char:EOLhyphen"/>out doubt taught many Excellent Notions, and whol<g ref="char:EOLhyphen"/>ſom Leſſons; for our Saviour commanded his own Diſ<g ref="char:EOLhyphen"/>ciples, as well as the Multitude,<note place="margin">Mat. 33.1, 2, 3.</note> 
+               <hi>to obſerve whatever they commanded.</hi> But this was it that quite ſhak'd off all their Authority; <hi>They ſaid, but did not.</hi> They might perhaps preſs <hi>the very Weighty Matters of the Law,</hi> but <hi>they themſelves would not touch them with one of their Fingers</hi> How infinitely beyond them was our Grand Exemplar? 'Tis truly ſaid of Him,<note place="margin">John 7.46.</note> 
+               <hi>He ſpake as never Man ſpake;</hi> and 'tis as certain alſo, <hi>He Liv'd as never Man Liv'd.</hi>
+            </p>
+            <p>And this was moſt abſolutely neceſſary for Him to
+<pb n="8" facs="tcp:101544:6"/>do. He came into the World to reform both Jew and Gentile; to deſtroy all Hypocriſie, and meer Shews of Religion; to purge out all unclean and corrupt Affecti<g ref="char:EOLhyphen"/>ons; to teach us the pure Worſhip of God, in Spirit and in Truth; to inſtruct us how to mortify all our Paſſi<g ref="char:EOLhyphen"/>ons and Luſts; how to deny our ſelves in all unlawful things, and become perfectly dead unto all the Sug<g ref="char:EOLhyphen"/>geſtions of the Fleſh, the World, and the Devil; to ſan<g ref="char:EOLhyphen"/>ctify us throughout, and keep us not only <hi>from all ap<g ref="char:EOLhyphen"/>pearance,</hi> but alſo from <hi>all ſecret thoughts of Evil;</hi> to be<g ref="char:EOLhyphen"/>get in our Hearts the true Fears of that dreadful Judge of Heaven and Earth, before whom we ſhall one day ſtand to anſwer for whatever we have thought, or ſpake, or done amiſs: and next to that, to kindle in our Minds a Spirit of <hi>Humility</hi> and <hi>Meekneſs, Peace</hi> and <hi>Love,</hi> and to direct and keep us in all <hi>Holy</hi> and <hi>Heavenly</hi> Converſation towards one another.</p>
+            <p>Certainly a Lawgiver ſo Divine and Extraordi<g ref="char:EOLhyphen"/>nary as this, was oblig'd to make His own Life the abſolute Pattern of what he taught. As His Doct<g ref="char:EOLhyphen"/>rine was the moſt Sublime Inſtruction that was ever given to Mortal Men, ſo it was moſt highly requiſite that His own moſt Bleſſed <hi>Example</hi> ſhould fully anſwer it in all Exactneſs and Perfection;<note place="margin">Mat. 3.15.</note> or, in His own words to <hi>John</hi> the Baptiſt, <hi>It became Him above all to fullfill all Righteouſneſs.</hi>
+               <note place="margin">Joh. 3.46.</note> And thus we find him appealing to His own <hi>Innocency, Which of you convinces me of ſin?</hi> This alone, one would think, without his other mighty Deeds, had been enough to aſſert the Truth of His Do<g ref="char:EOLhyphen"/>ctrine. His whole <hi>Life</hi> and <hi>Death</hi> being, as it were, but one intire and uninterrupted Miracle. This made Him in His Diſcourſes, appear as <hi>one having Authority, and not as the Scribes.</hi>
+            </p>
+            <p>Thus both <hi>the Old and New Teſtament</hi> repreſent <hi>Chriſt</hi> as <hi>ſent to be a moſt ſingular Example to the World.</hi> Hence <hi>Iſaiah,</hi> foretelling <hi>the Peaceable State of his Kingdom,</hi> How the moſt Furious and Outragious <hi>Tempers</hi> ſhould
+<pb n="9" facs="tcp:101544:6"/>be quieted and compoſed by his gentle Precepts and mild Converſation, thus expreſſes it, by way of Pa<g ref="char:EOLhyphen"/>rable, <hi>The Wolf ſhall dwell with the Lamb,</hi>
+               <note place="margin">c. 11.6.</note> 
+               <hi>and the Leo<g ref="char:EOLhyphen"/>pard ſhall lie down with the Kid, and the Lion with the Calf, and a little Child ſhall lead them.</hi> Men of all Hu<g ref="char:EOLhyphen"/>mours and Conditions ſhall be reconciled to one ano<g ref="char:EOLhyphen"/>ther, and their Captain, or Leader, ſhall be Himſelf as Harmleſs and Innocent as a <hi>ſucking Child.</hi>
+            </p>
+            <p>Again, the ſame Prophet tells us,<note place="margin">c. 53.3.</note> 
+               <hi>He was to be a Man of ſorrows and acquainted with grief, He was to be oppreſſed and afflicted, to be brought</hi> (as in the words of my Text) <hi>like a Lamb to the ſlaughter, and as a ſheep before her ſhearers is dumb, ſo was he not to open His Mouth. He was not to cry nor life up his Voice in the ſtreet. He was not to break the bruiſed Reed, nor quench the ſmoking Flax</hi> That is,<note place="margin">c. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>3.2, 3.</note> not to diſcourage the broken and contrite heart, nor neglect any one that had the leaſt ſpark of goodneſs left in him.</p>
+            <p>And all this he perfectly made good from the very Manger to the Croſs, Nay, <hi>He did not deſpiſe the Vir<g ref="char:EOLhyphen"/>gins Womb.</hi> How highly reaſonable and weighty then muſt St. <hi>Pauls</hi> command be? <hi>Let the ſame mind be in you, that was alſo in Chriſt Jeſus.</hi> He ſpake his mind,<note place="margin">Phil. 2.5.</note> yes, and exactly perform'd it too. <hi>Tho He thought it no Robbery to be equal with God, yet he made</hi> himſelf of no Reputation,<note place="margin">V. 6, 7, 8.</note> 
+               <hi>He humbled himſelf and became obedi<g ref="char:EOLhyphen"/>ent to Death, even the ſhameful Death of the Croſs.</hi>
+            </p>
+            <p>What art thou then, O ſinful Worm, that ſhall think thy ſelf too great for any Condeſcenſion? <hi>Here<g ref="char:EOLhyphen"/>unto,</hi> ſays St. <hi>Peter, are we called,</hi>
+               <note place="margin">1 Ep. 2.21.</note> 
+               <hi>becauſe Chriſt alſo ſuffered, leaving us an Example. that we alſo ſhould follow his ſteps.</hi> And, to inſtance in no more, let thoſe words of our Bleſſed Saviour ſuffice, <hi>If any one will come after me, let him deny himſelf, and take up his Croſs daily,</hi>
+               <note place="margin">Luc. 9.23.</note> 
+               <hi>and follow me.</hi> Do you think this <hi>daily Croſs</hi> ſignifies only Perſecution, Affliction or Tribulation? No, it is as
+<pb n="10" facs="tcp:101544:7"/>St. <hi>Hierome</hi> explains it, Every Temptation likewiſe from the <hi>World,</hi> the <hi>Devil,</hi> or <hi>our own</hi> deceitful <hi>Heart;</hi> Whatever is uneaſy to a ſanctify'd Mind; and the ta<g ref="char:EOLhyphen"/>king it up, is here declared to be our <hi>Maſtering of it by ſelf-denial,</hi> after Chriſts own Bleſſed Example.</p>
+            <p>To ſome weak and willful ſinners indeed, ſuch as are too much given up to their Luſts, and Enſlaved to their Paſſions, <hi>this may ſeem a hard ſaying.</hi> Cuſtom, I confeſs, is another Nature, and therefore muſt allow thoſe words of the Prophet to be the very Truth its ſelf. <hi>Can the</hi> Ethiopian <hi>change his skin, or the</hi> Leo<g ref="char:EOLhyphen"/>pard <hi>his Spots,</hi>
+               <note place="margin">
+                  <hi>Jer.</hi> 13.23.</note> 
+               <hi>then may ye alſo learn to do good, that are accuſtomed to do evil.</hi> But this is ſpoken of Men perfectly Dead in Treſpaſſes and Sins. Men utterly given over to a Reprobate mind, whoſe hearts are by continual practice ſo hardned, <hi>As to Drink in Iniquity like water, with all manner of greedineſs</hi> and delight. For if there be any Serious Remorſe of Conſcience remaining at any time, <hi>the Flax</hi> is ſtill ſmoaking, there is ſome little hopes of Life yet left.</p>
+            <p>A Senſe of Sin, and deſire of Amendment, are two previous Diſpoſitions here always neceſſary to be ſup<g ref="char:EOLhyphen"/>poſed. What then remains to do the Work, but a con<g ref="char:EOLhyphen"/>ſtant and moſt earneſt Endeavour with the Divine Aſſi<g ref="char:EOLhyphen"/>ſtance, which our Merciful Father never witholds in ſuch a Caſe? We ſee in ordinary Caſes of Human Life, what mighty hard Tasks in a little time are overcome by only diligence and a ſerious application; but here we have the vaſt advantage beſides of Gods moſt Holy Spirit to direct, guide, ſtrengthen and ſup<g ref="char:EOLhyphen"/>port us.</p>
+            <p>We know all Habits are acquired by often repeated Acts, and by ſeveral Degrees; and thoſe that are bad, as well as thoſe that are good, meet with an uneaſineſs and reluctancy at the beginning. For I appeal to the Heart of any Man, whether at the firſt breach of his
+<pb n="11" facs="tcp:101544:7"/>Innocency, at his firſt committing of any willful ſin. He has not had a Diſpute with Himſelf before it was done; and whether after, his Heart did not ſmite him, and make him unquiet; tho afterwards, perhaps, by often falling into the ſame <hi>Vice,</hi> by lit<g ref="char:EOLhyphen"/>tle and little his Conſcience fell aſleep, and He then went on without any further Reflection at all.</p>
+            <p>On the other ſide, whether in avoiding ſome occa<g ref="char:EOLhyphen"/>ſion of ſin, or reſiſting ſome Temptation, He has not met with the like Controverſy; and when he had o<g ref="char:EOLhyphen"/>vercome, whether the Thoughts of his Eſcape have not fill'd his Heart with Joy and Gladneſs?</p>
+            <p>Now beſides his ſenſual Appetite and Reaſon (the outward and the Inward Man) which wage this War, there are (with reverence be it ſpoken) thoſe Two <hi>Auxiliaries,</hi> the Inſtigations of the Devil on the one ſide, and the gracious Motions of the Holy Ghoſt on the other, to carry it on. And ſure no Man will ſo far diſhonour God, as to ſay, the Power of the Devil is in it ſelf, ſo great as that of His.</p>
+            <p>If it ſeem ſo to any one, it is, becauſe he makes it ſo by his own willful Apoſtacy. For the Holy Spirit is always willing. <hi>Behold,</hi> ſays He, <hi>I ſtand at the Door and Knock,</hi>
+               <note place="margin">Rev. 3.20.</note> 
+               <hi>if any Man hear</hi> (i. e. obey) <hi>my Voice and Open the Door, I will come in to him, and ſup with him, and he with me.</hi>
+            </p>
+            <p>Who can doubt of Gods help being always ready, or once queſtion his Sincerity and Truth, when he reads thoſe moſt convincing words. <hi>As I live, ſaith the Lord God, I have no pleaſure in the Death of the Wicked,</hi>
+               <note place="margin">Ezek. 23.11.</note> 
+               <hi>but that he ſhould turn from his way and live. Turn ye, turn ye, from your Evil ways, for why will you Die?</hi> Surely, we ought to think the bare Word of God might have been enough, but for our Encourage<g ref="char:EOLhyphen"/>ment, he hath bound it with an Oath, and becauſe He could <hi>ſwear by no Greater,</hi> He Swore by his Eternal and Everlaſting Life.</p>
+            <pb n="12" facs="tcp:101544:8"/>
+            <p>What doth this then come ſhort of a plain demon<g ref="char:EOLhyphen"/>ſtration, That in wreſtling with all deliberate ſins, it is not only poſſible, but wonderful eaſy for us thro <hi>Jeſus Chriſt to be more than Conquerors?</hi> And if we conſider Matters right, the very ſame Methods and Powers will prove every whit as effectual even in maſtering of thoſe ſins, that ſeem to overtake and ſeiſe us at una<g ref="char:EOLhyphen"/>wares, and appear moſt directly oppoſite to that peace<g ref="char:EOLhyphen"/>able, quiet and meek Diſpoſition we have been diſcour<g ref="char:EOLhyphen"/>ſing on; I mean, Trouble, Vexation, Anger, or the like.</p>
+            <p>For no Man can deny, but that there may be per<g ref="char:EOLhyphen"/>fect habits of Holineſs, as well as of Impiety. That a Man may be as <hi>abſolutely dead unto Sin, as dead unto Righteouſneſs,</hi> and that from low beginnings, Men leiſurely riſe up to both theſe heights. Now there are very few Men Subject to theſe haſty and violent paſ<g ref="char:EOLhyphen"/>ſions, but upon calm thoughts will be grieved and much diſpleaſed at themſelves, and perhaps tell you, that they would give all the World that it was other<g ref="char:EOLhyphen"/>wiſe with them. This I look upon as a very fair and laudable Foundation of this great work. I would then ask them, if ever they exerciſed themſelves by often putting all thoſe Calamitous Caſes, which are moſt likely to move their particular paſſions in them; for by ſuch frequent Meditations they by degrees arm and prepare themſelves againſt all events. In time, they will have a Defence and Guard for every blow that Fortune can offer.</p>
+            <p>If the Croſſes of the world diſturb thee, or thou art ſhaken at every Loſs<g ref="char:punc">▪</g> remember then, O Man, remem<g ref="char:EOLhyphen"/>ber it often, all that thou haſt in this world, Wife or Children, or Lands, or Goods, Health, Strength, Ho<g ref="char:EOLhyphen"/>nours or Preferments, or the like: They are all but lent thee, and are to be ſurrendred again upon demand.</p>
+            <p>That devout and daily Petition, <hi>Thy Will be done, O God, on Earth as it is in Heaven,</hi> together with theſe
+<pb n="13" facs="tcp:101544:8"/>good thoughts, conſtantly and ſeriouſly laid to heart and repeated, by the Bleſſing of God, will at length teach thee ſuch patience and humble reſignation, as e-even in <hi>Jobs</hi> condition, thou wouldſt chearfully ſay,<note place="margin">c. 1.21.</note> 
+               <hi>The Lord gave and the Lord hath taken away, Bleſſed be the Name of the Lord.</hi> Or ſomething like this. <hi>Lord, I am not worthy the leaſt of thoſe mercies, which thou haſt left me. Be not then vexed, O my Soul,</hi>
+               <note place="margin">Pſal. 43.5.</note> 
+               <hi>and be not thou diſquieted within me. Still truſt in God, for I will yet thank him, who is the help of my Countenance and my God;</hi>
+            </p>
+            <p>And there is the ſame Methodical cure for anger and wrath, which from their heats and extravagant effects, have got themſelves the Name of Paſſion, by way of Superiority or Singularity. Certainly, ſuch a ſerious Courſe of Spiritual Exerciſe, as I juſt now mentioned, would ſtrangely ſoften and much unbend the ſpring of any Mans fury, if not quite unwind and let it down.</p>
+            <p>I would therefore humbly adviſe an angry Man to make experiment firſt in ſmall occaſions: For if he could not bear a ſlight offence, a great one muſt needs quite overſet him. There is no hopes he ſhould put up Injuri<g ref="char:EOLhyphen"/>ous words, much leſs blows, if he cannot paſs by a frivolous jeſt. If (as a Philoſopher ſomewhere ob<g ref="char:EOLhyphen"/>ſerves) he rages when his idle Servant lets fall a Tren<g ref="char:EOLhyphen"/>cher or a Glaſs, what would he do, if by ſad miſchance he ſhould ſet fire to his Houſe, or kill his only Child?</p>
+            <p>But I ſhall leave Phyloſophy, for behold a greater Maſter than even <hi>Socrates</hi> himſelf is here. The Me<g ref="char:EOLhyphen"/>ditation of whoſe Example and Divine behaviour un<g ref="char:EOLhyphen"/>der all thoſe things, which ſeem moſt grievous to Fleſh and Blood, and are counted the cheifeſt, if not the only grounds of Provocation, will prove the moſt effectual means to beget in us the ſame moſt quiet and heavenly mind.</p>
+            <pb n="14" facs="tcp:101544:9"/>
+            <p>How eaſily are Men exaſperated with reproach and ſlander? And <hi>ill words,</hi> we commonly ſay, <hi>Cut deeper than Blows.</hi> Yet he, that was Innocence it ſelf, thought it no ſhame to paſs them by. They call'd him a <hi>Man Gluttonous,</hi> and a <hi>Wine-bibber; A Friend of Publicans and Sinners.</hi> All he return'd was only that meek ſay<g ref="char:EOLhyphen"/>ing, <hi>Wiſdom is juſtify'd of all her Children.</hi> VViſdom may be ſcofft at,<note place="margin">Mat. 11.19.</note> contemn'd and abus'd by the vain or ignorant world, but this is her comfort, ſhe is juſti<g ref="char:EOLhyphen"/>fy'd and eſteem'd, and honoured by thoſe that under<g ref="char:EOLhyphen"/>ſtand her.</p>
+            <p>They call'd him a <hi>Samaritane,</hi> a Schiſmatick or He<g ref="char:EOLhyphen"/>retick. They ſaid, <hi>He had a Devil and was Mad.</hi> Nay, that all his mighty works were done by <hi>Belzebub him<g ref="char:EOLhyphen"/>ſelf.</hi> Yet when he was thus ſhamefully and blaſphe<g ref="char:EOLhyphen"/>mouſly revil'd, <hi>He reviled not again, but committed himſelf to him that judgeth righteouſly.</hi>
+               <note place="margin">1 Pet. 2.23.</note> He that ſhall frequently ponder all theſe things in his Heart and en<g ref="char:EOLhyphen"/>deavour to imitate them, will never value opprobrious Language, or any envious Report; for if it be falſe, he will bleſs God for the ſatisfaction and comfort, he finds in his own Innocency. If it hath any thing of Truth in it, he will bleſs God for that too, becauſe the Reporter thereby proves his Monitor inſtead of his Enemy. The Venom which is ſpit at him, he converts to balm and precious Oyntment, that will ſerve to correct and heal his infirmity; and I dare ſay, he will be ſo far from counting it impoſſible, as he will ſoon find himſelf fully able to return the like ſoft and gentle Anſwers, to the moſt piercing and moſt grievous words whatever, nay, he will find it eaſier at any time, and I ſhould think, many times much wiſer, <hi>If like a Sheep before the Shearers, he be dumb,</hi> and ſay no<g ref="char:EOLhyphen"/>thing at all.</p>
+            <pb n="15" facs="tcp:101544:9"/>
+            <p n="2">2. The next thing that is commonly eſteemed mat<g ref="char:EOLhyphen"/>ter of Provocation and Reſentment, is in general, chur<g ref="char:EOLhyphen"/>liſh and evil uſage. And here our Lord and Maſter hath trodden this rugged Path, and hath made it alſo plain, and very eaſy for thoſe that will tread in his ſteps. When the <hi>Satuaritans</hi> refus'd to entertain Him, it ſeems to have been about the Eating time of the day, when Men uſually ſay, the Peeviſh Humour is moſt ſtirring. Two of his Diſciples were preſently for <hi>com<g ref="char:EOLhyphen"/>manding Fire from Heaven to conſume them. But he re<g ref="char:EOLhyphen"/>buked them, and ſaid, Ye know not wnat manner of Spirit you are of.</hi>
+               <note place="margin">Luk. 9.54, 55, 56.</note> 
+               <hi>The Son of Man is not come to deſtroy Mens Lives, but to ſave them.</hi> When his Countrymen deſ<g ref="char:EOLhyphen"/>piſed and rejected Him, He only return'd that Great <hi>Truth, A Prophet is not without Honour, ſave in his own Country, and in his own Houſe.</hi>
+               <note place="margin">Mat. 13.51.</note> When <hi>the Jews took up ſtones to ſtone him,</hi> He ſaid unto them, <hi>Many good works have I ſhew'd you from my Father, for which of thoſe works do you ſtone me?</hi>
+               <note place="margin">John 10.31.</note> To the ungrateful and treacherous <hi>Judas, Friend, wherefore art thou come? Betrayeſt thou the Son of Man with a Kiſs?</hi>
+               <note place="margin">Mat. 26.50. Luke 22.48.</note> To the Officer that ſmote him, <hi>If I have ſpoken Evil, bear Witneſs of the Evil, but if well, why ſmiteſt thou me?</hi>
+               <note place="margin">John 18.23.</note> When the Multitude came to take Him, tho he could have had at that inſtant <hi>more than Twelve Legions of Angels</hi> for His Reſcue,<note place="margin">Mat. 26.53.</note> yet He reſiſted not. And when over-zealous <hi>Peter,</hi> in his defence, ſmote off <hi>Malchus</hi>'s Ear, He gave him that mild, but aſtoniſhing Rebuke, <hi>Put up thy Sword into the ſheath. The Cup which my Father hath given me,</hi>
+               <note place="margin">John 18.11.</note> 
+               <hi>ſhall I not drink it?</hi> And what is yet more admirable, that Himſelf might Exemplify his own Divine Doctrine, of <hi>doing good to them that hate us,</hi> He <hi>reſtored,</hi>
+               <note place="margin">Luke 22.51.</note> 
+               <hi>and healed the Ear</hi> by a miraculous touch.</p>
+            <p>The Time would fail me to tell you at large how He was mocked and ſcorned by <hi>the Scarlet Robe, the Reed,</hi> and <hi>the Crown of Thorns.</hi> How he was <hi>ſpit upon, buf<g ref="char:EOLhyphen"/>feted,
+<pb n="16" facs="tcp:101544:10"/>ſcourged, reviled by the Rulers</hi> and gazing <hi>Multi<g ref="char:EOLhyphen"/>tude,</hi> and railed on by the very impertinent <hi>Theif,</hi> yet under all this Barbarous uſage, he behaved himſelf, as he really was, like the <hi>Son of God;</hi> and to Crown all the reſt of his ſufferings, in his very laſt Agonies of Death, and as it were gaſping upon the Croſs, he pray'd for his Enemies,<note place="margin">Luke 23.24.</note> 
+               <hi>Father forgive them, for they know not what they do.</hi>
+            </p>
+            <p>GO this way then, O haughty Man of Fury and Re<g ref="char:EOLhyphen"/>venge, whoever thou art, with earneſt prayer and di<g ref="char:EOLhyphen"/>ligence daily <hi>Hear, Read, Mark,</hi> and fear not but by degrees thou wilt <hi>Learn</hi> and <hi>Inwardly digeſt,</hi> this ex<g ref="char:EOLhyphen"/>cellent Leſſon of imitating what thy Saviour both ſaid and did. If thou never makeſt the leaſt ſerious ap<g ref="char:EOLhyphen"/>plication, never complain that the buſineſs is too hard, but blame thy ſhameful ſloth and neglect. Believe him that hath ſaid, <hi>Whoſoever hath</hi> (tho but a little) <hi>to him ſhall be given,</hi>
+               <note place="margin">Mat. 13.22.</note> 
+               <hi>and he ſhall have more abundance,</hi> And if that be not'enough to ſet you about this ne<g ref="char:EOLhyphen"/>ceſſary work, if thou deſpaireſt of arriving to ſo high a pitch of Perfection, which He, as God, was only able to attain, yet if thou ſetteſt before thine eyes thoſe bright and ſhining Lights which He hath from time to time raiſed up, thou wilt be ſufficiently convinced, that theſe his Laws are eaſy and pract cable to thoſe that Love them. Many and many inſtances the undoub<g ref="char:EOLhyphen"/>ted Hiſtory of the Univerſal Church affords us of this Nature; but to inſtance only in the Life and Behaviour of this moſt Illuſtrious and Royal Martyr, whom we this day commemorate, which brings me to the laſt ob<g ref="char:EOLhyphen"/>ſervable, wherein I promiſed.</p>
+            <p n="3">III. To ſhew you how ſtrictly he obſerved his Great Maſters commands, how Religiouſly he followed his Divine Example, and by conſequence how every good Chriſtian, that is true to his own endeavours, and faith<g ref="char:EOLhyphen"/>fully makes uſe of Gods aſſiſting Grace, is no leſs capa<g ref="char:EOLhyphen"/>ble of performing and following the ſame.</p>
+            <pb n="17" facs="tcp:101544:10"/>
+            <p>It is commonly made an Excuſe and Cloak for the Impatience, and immoderate Complaint of ſome men, that they are caſt down from ſome great heighth of Proſperity, and quite ſtript of ample Fortunes and Poſ<g ref="char:EOLhyphen"/>ſeſſions; as alſo on the other ſide, He that calmly and chearfully bears up in <hi>ſuch a Caſe,</hi> is juſtly counted wor<g ref="char:EOLhyphen"/>thy of all Praiſe and Admiration.</p>
+            <p>Of ſuch a one I am now to ſpeak of, a King whoſe loſs we this day commemorate, one who was born to, and poſſeſt of, an Imperial Crown of Three whole Nations, ſo powerful and great, as they would turn the balance, and give Laws at pleaſure to all Chriſtendom. None but Emperors could Rival his Birth and Fortunes; therefore all future complaints in an Inferior Prince, much more in the greateſt Subject, are quite cut off.</p>
+            <p>He was as Juſt and as Good as he was Great. Who can doubt it, that hath fully heard, or impartially read his amazing Story, or but caſt his Eyes upon that Ex<g ref="char:EOLhyphen"/>cellent and <hi>undoubted</hi> piece of his, His <hi>Pourtraicture in his Solitudes and Sufferings?</hi> He was but a Mortal Man indeed,<note place="margin">Vid. <hi>Dug<g ref="char:EOLhyphen"/>dal.</hi> late troub. <hi>p.</hi> 381.</note> and in that point infinitely ſhort of his Lord and Maſter, <hi>the Spotleſs Jeſus.</hi> We cannot ſay he was without ſin, but certainly He had as few to anſwer for as any Prince ever had. It was the apparent Deſign of that Party (that I may uſe their very Words) <hi>to blacken him as much as they could;</hi> and it is uſual for, Malice to aggravate every thing, and to make even Nothing ſeem Something in ſuch a Caſe;<note place="margin">
+                  <hi>Harriſons</hi> Tryal.</note> yet no man e<g ref="char:EOLhyphen"/>ver read, or heard, that He was any ways guilty of the leaſt Immorality, or ſo much as one of thoſe Vices which are commonly incident to Mankind.</p>
+            <p>One Act indeed He did, wearied out by reſtleſs Im<g ref="char:EOLhyphen"/>portunities, rather than wone by Reaſon or Right, which was his perpetual Lament, as it was his heavieſt Bur<g ref="char:EOLhyphen"/>then to the day of his Death, and made him on the
+<pb n="18" facs="tcp:101544:11"/>Scaffold declare <hi>all his Sufferings to be juſt<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>;</hi> It was his yeilding to that Unjuſt Sentence againſt the Lord of <hi>Strafford,</hi>
+               <note place="margin">
+                  <hi>Na'ſias</hi> Journal, <hi>p.</hi> 11<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> tho the Earl Himſelf, by <hi>Letter,</hi> had deſir'd him to do it. Yet he declar'd, <hi>That He bore no Touch of Conſcience with more Regret,</hi>
+               <note place="margin">Dugd. p. <hi>68</hi>
+               </note> and <hi>conſtantly bewail'd his preferring what he thought Safe before what was Juſt, his valuing Peace with Men before Peace with God,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urtrait. <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>2.</hi>
+               </note> 
+               <hi>and that to prevent Popular Diſcontents, he ſhould diſturb the Qui<g ref="char:EOLhyphen"/>et of his own Mind.</hi>
+            </p>
+            <p>Yet even in this he was to us a moſt remarkable Ex<g ref="char:EOLhyphen"/>ample; like <hi>David,</hi> he gave us another Royal Pattern of true Penitence; for he recovered himſelf by one continual Act of hearty Sorrow and Repentance to his Lives End.</p>
+            <p>Notwithſtanding all this his admirable Piety, and perfect <hi>Innocence,</hi>
+               <note place="margin">
+                  <hi>Nalſon,</hi> ib.</note> as to all things elſe, he could not eſ<g ref="char:EOLhyphen"/>cape the groſſeſt Imputations imaginable. At his Tri<g ref="char:EOLhyphen"/>al he was Impeached for the Higheſt Treaſon that was ever acted on the Theatre of <hi>England.</hi> He was not call'd a <hi>Man Gluttonous, and a Wine bibber, but a Ty<g ref="char:EOLhyphen"/>rant, a Traitor, and a Murderer, a Publick and Implaca<g ref="char:EOLhyphen"/>ble Enemy to the Common wealth of</hi> England,<note place="margin">Nal. p. <hi>32.</hi>
+               </note> 
+               <hi>and guilty of all the Deſolations, Rapines, Burnings, Damages, Miſ<g ref="char:EOLhyphen"/>chiefs and Spoils</hi> committed in that <hi>
+                  <g ref="char:V">Ʋ</g>nhappy War.</hi> He only <hi>ſmil'd</hi> at all this Foul and Villanous Language, for an undanted Courage and immoveable Patience are not only the Effects, but alſo the Indications of a guiltleſs and perfect Heart. Certainly He that (as I have ſhewn you) <hi>Was ſo highly concern'd for the Guilt of conſenting unto one Mans Death, could never willful<g ref="char:EOLhyphen"/>ly occaſion, much leſs contrive the Effuſion of ſo much Blood.</hi>
+            </p>
+            <p>However to ſatisfy the whole World, how well he remembred, and how exactly he obſerved his Maſter's words, <hi>Bleſſed are the Peace-makers: Peace I leave with
+<pb n="19" facs="tcp:101544:11"/>you, my Peace I give unto you.</hi>
+               <note place="margin">Joh. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4.27.</note> No man ever did labour to obtain it more than He. He ſent above 40 Meſſages to the then Uſurping Powers (which are all in Print, as an Invincible Demonſtration of his Innocence herein to all future Ages) All theſe return'd without Effect, continually clog'd with new demands. And there is no Man Living but muſt be forced to vindicate him herein, who ſhall <hi>but compare the Dates of his, with thoſe of their Commiſſions and Declarations.</hi>
+               <note place="margin">Nal. p. <hi>14.</hi>
+               </note>
+            </p>
+            <p>But above all,<note place="margin">
+                  <hi>Dug.</hi> 1<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> when his Standard was ſet up at <hi>Not<g ref="char:EOLhyphen"/>tingham,</hi> he there offered a Treaty before one Stroke was ſtruck, but was <hi>Proudly</hi> and <hi>Scornfully</hi> rejected. So fully was that ſaying of <hi>David</hi> verify'd in him, <hi>I labour for Peace, but whilſt I ſpeak to them thereof,</hi>
+               <note place="margin">Pſ. 120.7.</note> 
+               <hi>they make them ready for battle.</hi>
+            </p>
+            <p>What a Divine mixture was there of Modeſty and Humility with his profound Learning and Underſtand<g ref="char:EOLhyphen"/>ing? Not the very Fathers of our Church could bet<g ref="char:EOLhyphen"/>ter have Defended it than He did againſt Dr. <hi>Baily</hi> and others of the Popiſh Party; as alſo againſt <hi>Henderſon, Caryl,</hi> and other ſticklers for the Covenant. Yet <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e all along laid by the Authority and Majeſty of a King, and contented himſelf only with the <hi>Ornaments of a quiet and meek Spirit.</hi>
+            </p>
+            <p>Learn then of Him, ye <hi>Scribes,</hi> and <hi>Diſputers</hi> of this World, that Religious Controverſies are not to be managed with Heats and Jerks of Wit, but by ſolid Dint of Argument, expreſt with all Fairneſs, Calm<g ref="char:EOLhyphen"/>neſs and Chriſtian Compaſſion.</p>
+            <p>When He was brought before his pretended Judges, it is impoſſible for meer Man to comport Himſelf with more Majeſty and Gravity, with more Chriſtian Wiſ<g ref="char:EOLhyphen"/>dom and Magnanimity of Spirit, or with a more ſted<g ref="char:EOLhyphen"/>dy and even temper, than he did For Sixty or Seven<g ref="char:EOLhyphen"/>ty Commoners, to ſit, arraign, try, Judge and Con<g ref="char:EOLhyphen"/>dema their undoubted King, <hi>rudely to check</hi> him all
+<pb n="20" facs="tcp:101544:12"/>along, and <hi>interrupt</hi> him again and again, to <hi>over<g ref="char:EOLhyphen"/>rule,</hi> (as they call it) or rather to over-power and ſuppreſs, what they could not anſwer; Not to ſuffer his Reaſons to be heard, and the like, are ſuch Tranſcen<g ref="char:EOLhyphen"/>dent Indignities, as I profeſs my ſelf utterly unac<g ref="char:EOLhyphen"/>quainted with Language, to expreſs them by. Yet thro this whole Scene of Scorn, not one Ill, Raſh, or Unbecoming Word fell from his Lips.</p>
+            <p>Wherefore let all furious Sons of Wrath bluſh, and for ever after be aſham'd to ſay or think, that any vile Behaviour in Diſcourſe, can under the Light and Power of the Goſpel be too injurious, or too provoking for Fleſh and Blood to bear. Be<g ref="char:EOLhyphen"/>hold here an High-born and moſt Mighty Prince; an Humble, but moſt Illuſtrious Precedent of this Perfection to the contrary.<note place="margin">C. 3.2.</note> For <hi>St. James</hi> allows me to ſtyle him ſo, <hi>If any Man offend not in word, the ſame is a perfect Man.</hi>
+            </p>
+            <p>He could very well,<note place="margin">P. 113.</note> as he ſaid himſelf, <hi>have held his Peace, but ſilence at that time,</hi> might perhaps, with Vulgar and Inconſiderate Minds, <hi>have ſeem'd to ar<g ref="char:EOLhyphen"/>gue Guilt.</hi> Yet it was to vindicate his People's Rights more than his own, that made him offer at what he did: Nay, from the pious Concern for the Souls, even of thoſe over-forward and outragious Wretches, there before Him, He (tho with much ado) at laſt wedg'd in that Wife and Charitable Caution to them;<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note> 
+               <hi>A haſty Judgment is not ſo ſoon recall'd.</hi>
+            </p>
+            <p>How incomparably did He bare the Inſolencies and Affronts of the Barbarous Guards? When they pufft <hi>their noyſome Tobacco in his Face, (a thing moſt odious and offenſive to him)</hi> without any further Notice, He only turn'd His Head away, or gently fenced it off with his Hand; nay, one had the Incorrigible Impudence <hi>to ſpit in His Face,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note> yet He paſt on with<g ref="char:EOLhyphen"/>out
+<pb n="21" facs="tcp:101544:12"/>out one Word, and meekly <hi>wipt it off with His Han<g ref="char:EOLhyphen"/>kercheif.</hi> They cry'd out, <hi>Juſtice, Juſtice,</hi> (which in the <hi>Jews</hi> Language of old was, <hi>Crucifie, Crucifie.</hi>) Out of the Abundance of Pity and Compaſſion of His Roy<g ref="char:EOLhyphen"/>al Heart, for once he <hi>open'd his Mouth,</hi> and ſaid, <hi>Poor Souls! for a piece of Money they would do as much for their Commanders.</hi>
+            </p>
+            <p>He heard the Hiſtory of his Saviour's Bitter Paſſion, the Morning before he left this Life, read unto him by Biſhop <hi>Juxton,</hi> out of the 27th of <hi>St. Matthew</hi>'s Goſ<g ref="char:EOLhyphen"/>pel. He <hi>thank'd the Biſhop for his Choice,</hi> thinking that he did by Deſign, pitch upon that Portion of Scripture, as being moſt ſuitable to his preſent Condition. But when he underſtood it to be the ordinary Leſſon, ap<g ref="char:EOLhyphen"/>pointed by the <hi>Calendar</hi> for that day, he exceeding<g ref="char:EOLhyphen"/>ly rejoyced at the Bleſſed Conjuncture, and magni<g ref="char:EOLhyphen"/>fy'd the Gracious Providence of God, who had call'd him in that very Day, to follow the Example of his Maſter, there moſt happily ſet before Him by our Church.</p>
+            <p>'Twas this, which, as if it were a Meſſage ſent from him, that encourag'd and ſtrengthned him. He with Chearfulneſs call'd upon his Attendants as he paſt thro the Park, to make more haſte, ſaying, <hi>He now went before them, to ſtrive for a Heavenly Crown, with leſs Sollicitude,</hi>
+               <note place="margin">P. 113.</note> 
+               <hi>than he had ever encouraged his Soldiers to fight for an Earthly Diadem.</hi>
+            </p>
+            <p>Hear Him next upon the Scaffold. <hi>I have forgiven all the World, even the chief Cauſers of my Death; pray God forgive them: But this</hi> (ſaid He) <hi>is not all,</hi>
+               <note place="margin">P. 114.</note> 
+               <hi>my Charity muſt go yet further; I wiſh they may repent. They have committted a great Sin; I pray God, with</hi> St. Stephen, <hi>that this be not laid to their Charge.</hi>
+            </p>
+            <p>You ſee how heartily he could have uſed our Saviour's Words: <hi>Father, forgive them.</hi> Happy had they been, if he could have added, <hi>they know not what the do.</hi> F<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb n="22" facs="tcp:101544:13"/>the <hi>Jews</hi> indeed,<note place="margin">Act, 3.17. 1 Tim. 1.</note> as both St. <hi>Peter</hi> and St. <hi>Paul</hi> teſti<g ref="char:EOLhyphen"/>fie, <hi>were ignorant that they cruciſied the Lord of Life;</hi> but theſe knew too well whom they Deſtroy'd. He out of his tender Bowels and Compaſſion for their Sal<g ref="char:EOLhyphen"/>vation, had long before bid them be ware of ſo Horrid a Fact. <hi>Remember</hi> (ſaid he) <hi>I am your King, your Lawful King; Think upon it, Think well upon it, before you heap Sin upon Sin, and bring down God's Judgments upon this Land.</hi>
+            </p>
+            <p>But how then, <hi>ſhould</hi> (I will not ſay) <hi>the Scriptures have been fulfill'd;</hi> but what God had deſign'd, and they themſelves, tho Hypocritically, had ſaid, <hi>that he ſhould be made a Glorious King.</hi>
+            </p>
+            <p>Being juſt now entring into the Reſt of his Righte<g ref="char:EOLhyphen"/>ous Soul, He had theſe moſt Excellent Reflexions on if. <hi>I have a Good Cauſe, and a Gracious God on my ſide. I go now from a Corruptible, to an Incorruptible Crown, where no Diſturbance can be.</hi>
+               <note place="margin">P. 117.</note>
+            </p>
+            <p>Where there was ſuch a ſolid <hi>Rock of Faith,</hi> ſuch a firm <hi>Anchor of Hope</hi> as this,<note place="margin">Dug. P. 373.</note> 
+               <hi>there needed not thoſe Cords and Staples of Iron,</hi> which thoſe poor Spirited Miſcreants had prepared <hi>to tie him down to the Block.</hi> For as He was the Meekeſt Prince upon Earth, ſo like a moſt Heroick Champion of Jeſus Chriſt, with a Reſolution unchangeable, and a moſt Undaunted Courage; He quietly yeilded his Sacred Head to the Fatal Stroke.</p>
+            <p>Thus he valiantly <hi>fought a good Fight,</hi> like an ab<g ref="char:EOLhyphen"/>ſolute Conqueror over the whole World, and all the Powers therein. <hi>He finiſhed this Courſe,</hi> like a moſt Experienc'd Maſter of the Chriſtian Race, he kept the true <hi>Engliſh Apoſtolick Faith,</hi> Firm and Spotleſs to his laſt Gaſp, and is now gone to receive the <hi>Crown of Righteouſneſs,</hi> prepar'd for him in <hi>Everlaſting Reſt.</hi>
+            </p>
+            <p>And there I ſhall leave Him, for it would be a very vain Eſſay, to attempt any full Account of his moſt
+<pb n="23" facs="tcp:101544:13"/>amazing, and moſt compaſſionate Story, which neithes Pen nor Tongue can worthily expreſs; nor all the Wri<g ref="char:EOLhyphen"/>tings in the whole World, except the Goſpel, parallel. Wherefore I have contented my ſelf in gleaning here and there a Flower or two, to adorn that Chriſtian Do<g ref="char:EOLhyphen"/>ctrine, which I have endeavoured to dreſs up in my foregoing Diſcourſe.</p>
+            <p>And now thou art left wholly inexcuſable, O man, whoever thou art, if thou ſhalt be diſordered or diſqui<g ref="char:EOLhyphen"/>eted at any Evil that ſhall be all Thee. What Caſe canſt thou put, which in this ſhort Extract, is not ful<g ref="char:EOLhyphen"/>ly Satisfied and Anſwered? Doſt thou ſtand upon thy Power and Greatneſs, the Splendour of thy Name and Family, the Vaſtneſs of thy Treaſures and Poſſeſſions? <hi>Remember,</hi> I will not ſay, <hi>the Patience of Job,</hi> but of this Mighty Monarch, when he was <hi>treated</hi> with ſuch barbarous Inhumanity. He was deprived of whole Kingdoms, robb'd of his deareſt Wife and Children, ſtript of all the Comforts of this Life, nay, of Life it ſelf, and yet kept, what he ſays himſelf <hi>he counted moſt Dear, His Conſcience and Honour.</hi>
+            </p>
+            <p>As for thy <hi>Conſcience,</hi> God by His Grace, if thou doſt not reject it, hath put it abſolutely in thine own Power. And thy true Honour is then beſt defended, when thou leaſt regardeſt that, which is ſo only in preſence and ſhew.</p>
+            <p>Is Wiſdom and Knowledge the Pride of thy Heart? See here the Greateſt Maſter of Reaſon in moſt Points of ſolid Learning, <hi>Dumb as a Sheep before her Shear<g ref="char:EOLhyphen"/>ers,</hi> and not permitted to open his Mouth in his own Defence.</p>
+            <p>Is it too much for thee to brook any ſilly reflection, tho it be in a private Company, from your Equal or Superiour, or one perhaps heated with Wine, or which is worſe, drunk with impertinent Folly, or Self-conceit? Alaſs! Here is the Innocent Father of his
+<pb n="24" facs="tcp:101544:14"/>Country falſly Charged in a pretended Court by a hand<g ref="char:EOLhyphen"/>ful of his meaneſt Subjects, with the fouleſt Imputati<g ref="char:EOLhyphen"/>ons that Malice could Invent, publickly Condemn'd, and led like a Lamb to be Sacrificed before his own Door, in the ſight of the Noon-day Sun, and before the Face of his own Ungrateful People, and yet He from the very Bottom of his tender Soul, forgave them all, and as heartily pray'd to the God of all Mercies, that they might truly Repent, and Live for Ever.</p>
+            <p>But I ſhall forbear launching out any further into the Immenſe Ocean of his Praiſe; for the more I Extoll this Incomparable Prince, the more I diſcover our own perpetual Shame; the more I aggravate the horrid Guilt of this Innocent Blood upon this moſt unhappy, and moſt ſinful Nation.</p>
+            <p>O Gracious Lord! how highly Unchriſtian muſt this Fact appear, when thou ſhalt Judge the Secrets of all Men according to thy Goſpel! The Actors of it, will, I fear, then be found <hi>Sons of Belial,</hi> rather than Diſci<g ref="char:EOLhyphen"/>ples <hi>of the Meek and Humble Jeſus.</hi>
+            </p>
+            <p>But I ſhall ſpare them now, and if there be any one here yet alive, whoſe Conſcience doth directly accuſe him of that ſin, in conformity to the Subject of this preſent Diſcourſe, I ſhall at this time heartily deſire to <hi>reſtore ſuch an one in the Spirit of Meekneſs,</hi> rather than by ſevere Invectives; and to lead him, if poſſible, to a hearty and ſerious Repentance by a gentle Hand.</p>
+            <p>As for the reſt of us, who have either been born ſince that heavy Captivity, or elſe in thoſe days by God's great Mercy, were not involved in willfully contributing any thing to that Infamous and moſt A<g ref="char:EOLhyphen"/>bominable Deed. let us not vainly and wickedly with the proud <hi>Phariſee</hi> boaſt, <hi>God, we thank thee, we are not as theſe Men are:</hi> for, <hi>except we Repent, we ſhall all like<g ref="char:EOLhyphen"/>wiſe Periſh.</hi>
+            </p>
+            <pb n="25" facs="tcp:101544:14"/>
+            <p>We all ſtand Guilty this Day before the Dreadful Ma<g ref="char:EOLhyphen"/>jeſty of Heaven, and to that National Sin we have e<g ref="char:EOLhyphen"/>very one of us added many and many other moſt grie<g ref="char:EOLhyphen"/>vous of our own. Tho we have not <hi>Eaten</hi> the <hi>very ſame ſowre Grapes</hi> with our <hi>Fathers,</hi> yet our <hi>Teeth are much ſet an edge</hi> by our own Impieties. So that God may juſtly <hi>viſit their ſins</hi> upon us in this our Evil and Perverſe Generation.</p>
+            <p>Conſider the Diſtractions, Strifes and Animoſities which, through a want of Charity, and of this Meekneſs, ſo terribly rend and divide both Church and State; con<g ref="char:EOLhyphen"/>ſider the Deluge of Wickedneſs, and all manner of Vice, that covers the whole Face of this miſerable Land;<note place="margin">Mat. 23.30.</note> if we ſtill go on to <hi>fill up a meaſure of our Fathers Ini<g ref="char:EOLhyphen"/>quities,</hi> ſhall not <hi>I viſit for theſe things. ſaith the Lord?</hi>
+               <note place="margin">Jer. 3.9. c. 3.1.</note> and ſhall not <hi>my Soul be avenged on ſuch a Nation as this?</hi> Oh! <hi>that our Heads were water, and our Eyes ſo many Fountains of Tears, that we might weep day and night,</hi> not only for the Guilt of this glorious Martyrs Blood, and his Adherents that were <hi>ſtain,</hi> but alſo for a multitude of our own manifold Tranſgreſſions.</p>
+            <p>
+               <hi>And grant, O Lord, that neither the Splendor of any thing that is Great, nor the conceit of any thing that is Good, in us, may any ways with-draw our Eyes from looking upon our ſelves as ſinful Duſt and A<g ref="char:EOLhyphen"/>ſhes. but that, according to the Example of this thy Bleſſed Martyr, we may preſs forward toward the Prize of the High Calling that is before us, in Faith and Patience, Humility and Meekneſs, Mortificati<g ref="char:EOLhyphen"/>on and Self-denial, Charity and conſtant Perſeve<g ref="char:EOLhyphen"/>rance unto the End, and this for thy Son our Lord Jeſus Chriſt his ſake, to whom with thee and the Holy Ghoſt be all Honour and Glory World without End.</hi> Amen.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:101544:15"/>
+            <p>
+               <hi>Now in the Preſs,</hi>
+            </p>
+            <p>DR. <hi>Bently</hi>'s Diſſertation upon the Epiſtle of <hi>Phalaris,</hi> &amp;c. And the Fables of <hi>Aeſop</hi> examin'd.</p>
+            <p>By the Honourable <hi>Charles Boyle,</hi> 
+               <abbr>Eſq</abbr>
+            </p>
+            <pb facs="tcp:101544:15"/>
+         </div>
+      </back>
+   </text>
+</TEI>
